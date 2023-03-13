@@ -33,7 +33,7 @@ export default function Home({ countries }) {
         <div className={styles.description}>
         <p>Get information about countries</p>
 
-        <p className={styles.link}><a href="https://countries.trevorblades.com/" target="_blank">Countries GraphQL API Link &rarr;</a></p>
+        <p className={styles.link}><a href="https://countries.trevorblades.com/" target="_blank">GraphQL Countries API Link &rarr;</a></p>
 
 
         <p>
