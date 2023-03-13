@@ -30,10 +30,13 @@ export default function Home({ countries }) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Country Info</h1>
+        <div className={styles.description}>
+        <p>Get information about countries</p>
 
-        <p className={styles.description}>Get information about countries</p>
+        <p className={styles.link}><a href="https://countries.trevorblades.com/" target="_blank">Countries GraphQL API Link &rarr;</a></p>
 
-        <p className={styles.description}>
+
+        <p>
           <input
             className={styles.input}
             value={query}
@@ -42,6 +45,7 @@ export default function Home({ countries }) {
             placeholder="Search countries"
           />
         </p>
+        </div>
 
         <div className={styles.grid}>
           {countriesResult.length ? (
